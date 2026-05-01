@@ -108,6 +108,8 @@ galleryRef.innerHTML = markup;
 //   instance.show();
 // });
 
+// було виконано завдання з бібліотекою basicLightbox, але я вирішив використати бібліотеку simpleLightbox, яка має більше функціоналу і простіша у використанні
+
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt', // показує опис із атрибута alt
   captionDelay: 250, // затримка появи опису
